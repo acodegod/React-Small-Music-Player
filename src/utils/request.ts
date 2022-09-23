@@ -5,7 +5,7 @@ import { message } from 'antd';
 switch (process.env.NODE_ENV) {
   case 'production':
     // 你的生产环境地址 / Your production mode api
-    axios.defaults.baseURL = '';
+    axios.defaults.baseURL = 'https://musicapi.bugjava.cn';
     break;
 
   default:
